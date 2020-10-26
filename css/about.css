@@ -1,0 +1,272 @@
+.headings {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 2em 0;
+  }
+  
+  .title {
+    margin: 0;
+  }
+  
+  .hr {
+    display: block;
+    flex: 1;
+    margin: 0 30px;
+    height: 3px;
+    background: #D4D4D4;
+  }
+
+  .sec1{
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 600px;
+
+  }
+
+
+  .parallax {
+    /* The image used */
+    background-image: url("../img/sch.jpg");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .prlxeff{
+    height:500px; 
+
+    padding: em 0;
+    position: relative;
+  }
+
+  .mt-ve{
+    margin-top: -130px;
+  }
+  .bottom{
+    background-color: #fff; 
+    z-index: 1; 
+    position: relative;
+    color: #222; 
+  }
+
+  .bottom:after{
+    content: '';
+    position: absolute;
+    top: -46px;
+    background: #fff;
+    left: -22px;
+    /* border-top: 1px solid #494949; */
+    right: 0;
+    height: 150px;
+    transform: rotate(10deg);
+    width: 365px;
+    z-index: -1;
+  }
+  .btm2:after{
+    content: '';
+    position: absolute;
+    top: -46px;
+    background: #fff;
+    left: -22px;
+    /* border-top: 1px solid #494949; */
+    right: 0;
+    height: 150px;
+    transform: rotate(-10deg);
+    width: 395px;
+    z-index: -1;
+  }
+  .bb-0{
+    border: 0;
+    box-shadow: 1px 5px 6px 1px #efefef;
+  }
+
+  .f-9{
+    font-size: 0.9em;
+  }
+
+  .orTchrs{
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  .mthsDpt{
+    font-size: 3rem;
+  }
+
+  .crdBrd-0{
+    border: 0;
+  }
+
+  .sctNSprtn{
+    background: #2f80ed6b;
+    background: -webkit-linear-gradient(to bottom, #2f80ed6b, #56ccf20a);
+    background: linear-gradient(to bottom, #2f80ed6b, #56ccf20a);
+  }
+
+
+  /* Footer About us ka */
+  .circle{
+    position: relative;
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    padding-top: 100%;
+    background: black;
+     }
+  
+     .align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+    }
+  
+    
+    .d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    }
+  
+    .about-border {
+      display: block;
+      width: 80px;
+      height: 3px;
+      background: #f1cd8f;
+      margin: 20px auto;
+  }
+  
+  .grid-divider {
+    position: relative;
+    padding: 0;
+  }
+  .grid-divider>[class*='col-'] {
+    position: static;
+  }
+  .grid-divider>[class*='col-']:nth-child(n+2):before {
+    content: "";
+    border-left: 2px solid #6c6c6c69;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+  .col-padding {
+    padding: 0 15px;
+  }
+  
+  /* Icon Footer Gradients */
+  
+  
+  .fa-linkedin-square:before{
+    color: transparent;
+    background: -webkit-radial-gradient(30% 107%, circle,  #fdf097 0%, #2c87d5 5%, #10a57c 45%, #2486d6 60%, #28d4eb 90%);
+    background: -o-radial-gradient(30% 107%, circle,#fdf097 0%, #2c87d5 5%, #10a57c 45%, #2486d6 60%, #28d4eb 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf097 0%, #2c87d5 5%, #10a57c 45%, #2486d6 60%, #28d4eb 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf097 0%, #2c87d5 5%, #10a57c 45%, #2486d6 60%, #28d4eb 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
+  
+  .fa-google-plus:before{
+    color: transparent;
+    background: -webkit-radial-gradient(30% 107%, circle,  #fdd497 0%, #d52cb1 5%, #a51077 45%, #d63b24 60%, #db28eb 90%);
+    background: -o-radial-gradient(30% 107%, circle,#97cefd 0%, #2cb6d5 5%, #1061a5 45%, #24afd6 60%, #285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #fdd497 0%, #d52cb1 5%, #a51077 45%, #d63b24 60%, #db28eb 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%,  #fdd497 0%, #d52cb1 5%, #a51077 45%, #d63b24 60%, #db28eb 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
+  
+  
+  .fa-facebook:before{
+    color: transparent;
+    background: -webkit-radial-gradient(30% 107%, circle, #97cefd 0%, #2cb6d5 5%, #1061a5 45%, #24afd6 60%, #285AEB 90%);
+    background: -o-radial-gradient(30% 107%, circle,#97cefd 0%, #2cb6d5 5%, #1061a5 45%, #24afd6 60%, #285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #97cefd 0%, #2cb6d5 5%, #1061a5 45%, #24afd6 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #97cefd 0%, #2cb6d5 5%, #1061a5 45%, #24afd6 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
+  
+  .fa-instagram:before {
+    color: transparent;
+    background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
+  
+  
+  .xyz { 
+    background-size: auto; 
+    text-align: center; 
+    padding-top: 50px; 
+  } 
+  
+  .xyz .btn{    border-bottom: none;}
+  /* For Color */
+  .xyz .btn{
+    color:#000;
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+  .btn-circle.btn-sm { 
+    width: 30px; 
+    height: 30px; 
+    padding: 6px 0px; 
+    border-radius: 15px; 
+    font-size: 8px; 
+    text-align: center; 
+  } 
+  .btn-circle.btn-md { 
+    width: 50px; 
+    height: 50px; 
+    padding: 7px 10px; 
+    border-radius: 25px; 
+    font-size: 10px; 
+    text-align: center; 
+  } 
+  .btn-circle.btn-xl { 
+    width: 100px; 
+    height: 100px; 
+    padding: 10px 16px; 
+    border-radius: 55px; 
+    font-size: 12px; 
+    text-align: center; 
+  } 
+  
+  .footerBg{
+
+    border-top-color: #102443;
+    background-color: #102443;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    /* background: #0f0c29;  
+    
+    background: -webkit-linear-gradient(to top,#222222, #454545, #222222); 
+    
+    background: linear-gradient(to top,#222222, #454545, #222222);  */
+    
+    
+    /* to top, #1f1f22, #2f3474, #1f1f22 */
+    
+  
+  }
+    .ftrSchlTxt{color:#8d8d8d}
+    .ftrSchlTxtp{color: #ac89ff;}
+    .ftrSchlTxt h5{color: #d3cd1a;}
+    .flwTxt{color: #d3cd1a;}
